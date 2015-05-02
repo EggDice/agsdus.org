@@ -2,3 +2,16 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
 }
+
+/*   http://nicolasgallagher.com/micro-clearfix-hack/   */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
