@@ -86,14 +86,7 @@ a.menu-button {
 #menu-target:target .menu {
   display: block;
 }
-/* DEV dropdown menu for desktop */
-.menu ul ul {
-  display: none;
-/*dev*/ font-size: 0.8em;
-}
-.menu li:hover * {
-display:block;
-}
+
 
 
 /*header*/
@@ -304,4 +297,17 @@ article p {
       /*dev*/background: green;
       width: 300px;
       height: 450px;
+    }
+
+    /*
+    _________________________________ Menu _________________________________
+    */
+
+    /* dropdown menu */
+    .menu ul ul {
+      display: none;
+    /*dev*/ font-size: 0.8em;
+    }
+    .menu li:hover * {
+    display:block;
     }
