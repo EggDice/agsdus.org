@@ -31,3 +31,67 @@ ul, ol {
 .clearfix {
     *zoom: 1;
 }
+
+/*
+_________________________________ Menu _________________________________
+*/
+.menu-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+a.menu-button {
+  display: block;
+  width: 128px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #dde2e7;
+}
+.menu-button::before {
+  content: 'Menu';
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  line-height: 3.1;
+  color: #0a4815;
+}
+.menu-button div {
+  width: 21px;
+  height: 19px;
+  padding: 13px 12px;
+  float: right;
+  background: #0a4815;
+}
+.menu-button div::before,
+.menu-button div::after {
+  display: block;
+  content: '';
+  height: 5px;
+  border-top: 3px solid #fff;
+}
+.menu-button div::after {
+  border-bottom: 3px solid #fff;
+}
+.menu-button.menu-close {
+    display: none;
+}
+.menu {
+  height: 100px;
+  display: none;
+  font-size: 1.6em;
+/*dev*/ width: 300px;
+}
+#menu-target:target .menu-close,
+#menu-target:target .menu {
+  display: block;
+}
+/* DEV dropdown menu for desktop */
+.menu ul ul {
+  display: none;
+/*dev*/ font-size: 0.8em;
+}
+.menu li:hover * {
+display:block;
+}
