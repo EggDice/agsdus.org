@@ -31,7 +31,6 @@ ul, ol {
 .clearfix {
     *zoom: 1;
 }
-
 /*
 _________________________________ Menu _________________________________
 */
@@ -95,3 +94,111 @@ a.menu-button {
 .menu li:hover * {
 display:block;
 }
+
+
+/*header*/
+
+.logo {
+  padding: 20px;
+}
+
+header {
+  margin-left: 10px;
+}
+
+header h1 {
+  font-family: 'Open Sans';
+  font-size: 3.4em;
+  color: #0a4815;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+  line-height: 110%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header p {
+  font-family: 'Georgia';
+  font-style: italic;
+  font-size: 1.4em;
+  color: #696d71;
+}
+
+.pdf {
+  font-family: 'Open Sans';
+  font-size: 1.4em;
+  background: #dde2e7;
+  line-height: 48px;
+  height: 48px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.pdf img {
+  padding: 10px;
+  float: left;
+}
+
+.pdf a {
+  color: #575b60;
+  padding: 10px;
+}
+
+span {
+  color: #0a4815;
+  font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 960px) {
+  body {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 960px;
+    height: 270px;
+    margin: 10px 0;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .headertext {
+    float: left;
+    width: 530px;
+    margin-left: 30px;
+    }
+
+  header h1 {
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+
+  header p {
+    margin-left: 100px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+  }
+
+  .pdf {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+  }
+
+  .pdf img {
+    clear: both;
+    margin: 20px 45px 0 45px;
+  }
+
+  .pdf a {
+    margin: 10px;
+  }
