@@ -151,6 +151,50 @@ span {
   font-weight: bold;
 }
 
+/*main*/
+
+.highlight {
+  margin-top: 30px;
+}
+
+
+.letters li {
+  float: left;
+  list-style: none;
+  width: 300px;
+  height: 100px;
+  background: green;
+  margin: 5px;
+}
+
+article {
+  clear: both;
+}
+
+article p {
+  font-size: 1.6em;
+}
+
+.status {
+  font-family: 'Open Sans';
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin: 30px 10px 15px 10px;
+}
+
+.status a {
+  text-decoration: none;
+}
+
+.events {
+  margin: 30px 10px 15px 10px;
+  font-family: 'Open Sans';
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+
+
 
 
 @media screen and (min-width: 960px) {
@@ -202,3 +246,62 @@ span {
   .pdf a {
     margin: 10px;
   }
+
+  /*main*/
+
+    main {
+      width: 960px;
+      margin: 0 auto;
+      height: 100%;
+    }
+
+    .highlight {
+      width: 960px;
+      height: 340px;
+    }
+
+    ul {
+      float: left;
+      -webkit-padding-start: 0px;
+    }
+
+    .letters li {
+      list-style: none;
+      position: relative;
+      z-index: 1;
+      width: 230px;
+      height: 320px;
+      /*dev*/background: green;
+      margin-left: 5px;
+      margin-right: 5px;
+      }
+
+
+    article {
+      clear: both;
+      float: left;
+      width: 610px;
+      height: 630px;
+    }
+
+    article h1 {
+      font-size: 3.6em;
+      font-family: 'Open Sans';
+      font-weight: 300;
+    }
+
+    aside {
+      float: right;
+    }
+
+    .status {
+      width: 300px;
+      height: 100px;
+      /*dev*/background: #ccc;
+    }
+
+    .events {
+      /*dev*/background: green;
+      width: 300px;
+      height: 450px;
+    }
