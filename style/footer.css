@@ -1,3 +1,32 @@
+body {
+	width: 100%;
+	padding-top: 200px;
+}
 footer {
+	background-color: #ccd1d6;
+	box-sizing: border-box;
 	font-size: 1.3em;
+	line-height: 1.35;
+	margin: 45px 0 0;
+	padding: 30px 10px 60px;
+	width: 100%;
+}
+
+
+
+/*
+===================== BREAKPOINT 978px =====================
+*/
+@media screen and (min-width: 960px) {
+	
+	body {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	footer {
+		background-color: #ccd1d6;
+		font-size: 1.3em;
+	}
+
 }
