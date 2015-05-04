@@ -162,10 +162,19 @@ _________________________________ Main _________________________________
 
 article {
   clear: both;
+  font-size: 1.4em;
+  line-height: 1.4;
 }
 
 article p {
-  font-size: 1.6em;
+  margin: 0 0 1.5em;
+}
+
+article h1 {
+  font-size: 2.4em;
+  font-weight: 400;
+  line-height: 1.17;
+  margin-bottom: 35px;
 }
 
 .status {
@@ -197,7 +206,7 @@ _________________________________ Footer _________________________________
   color: #565a60;
   font-size: 1.3em;
   line-height: 1.35;
-  margin: 45px 0 0;
+  margin: 80px 0 0;
   padding: 30px 10px 60px;
 }
 .footer-info {
@@ -223,6 +232,13 @@ _________________________________ Footer _________________________________
 .line-break-before::before {
   content: '';
   display: block;
+}
+
+/*
+_________________________________ Content page sections _________________________________
+*/
+main.contentpage {
+  margin: 60px 10px 0;
 }
 
 
@@ -316,9 +332,13 @@ _________________________________ Footer _________________________________
     height: 630px;
   }
 
+  article p {
+    font-size: 1.6rem;
+  }
+
   article h1 {
-    font-size: 3.6em;
-    font-weight: 300;
+    font-size: 3.6rem;
+    font-weight: 400;
   }
 
   aside {
@@ -369,7 +389,7 @@ _________________________________ Footer _________________________________
   _________________________________ Footer _________________________________
   */
   .site-footer {
-    margin: 0 auto;
+    margin: 70px auto 0;
     width: 960px;
   }
   .footer-info,
@@ -399,6 +419,21 @@ _________________________________ Footer _________________________________
   }
   .contact-mailto {
     margin-left: 20px;
+  }
+
+  /*
+  _________________________________ Content page sections _________________________________
+  */
+  main.contentpage {
+    float: none;
+    margin: 80px auto 0;
+    width: 800px;
+  }
+  .contentpage article {
+    clear: both;
+    float: none;
+    width: auto;
+    height: auto;
   }
 
 }
