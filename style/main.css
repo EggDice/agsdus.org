@@ -31,6 +31,7 @@ ul, ol {
 .clearfix {
     *zoom: 1;
 }
+
 /*
 _________________________________ Menu _________________________________
 */
@@ -87,8 +88,9 @@ a.menu-button {
 
 
 
-/*header*/
-
+/*
+_________________________________ Header _________________________________
+*/
 .logo {
   padding: 20px;
 }
@@ -98,7 +100,6 @@ header {
 }
 
 header h1 {
-  font-family: 'Open Sans';
   font-size: 3.4em;
   color: #0a4815;
   letter-spacing: 3px;
@@ -118,7 +119,6 @@ header p {
 }
 
 .pdf {
-  font-family: 'Open Sans';
   font-size: 1.4em;
   background: #dde2e7;
   line-height: 48px;
@@ -142,7 +142,9 @@ span {
   font-weight: bold;
 }
 
-/*main*/
+/*
+_________________________________ Main _________________________________
+*/
 
 .highlight {
   margin-top: 30px;
@@ -167,7 +169,6 @@ article p {
 }
 
 .status {
-  font-family: 'Open Sans';
   font-size: 1.8em;
   text-transform: uppercase;
   margin: 30px 10px 15px 10px;
@@ -179,13 +180,29 @@ article p {
 
 .events {
   margin: 30px 10px 15px 10px;
-  font-family: 'Open Sans';
   font-size: 1.8em;
   text-transform: uppercase;
 }
 
+/*
+_________________________________ Footer _________________________________
+*/
+
+footer {
+  background-color: #ccd1d6;
+  box-sizing: border-box;
+  font-size: 1.3em;
+  line-height: 1.35;
+  margin: 45px 0 0;
+  padding: 30px 10px 60px;
+  width: 100%;
+  clear: both;
+}
 
 
+/*
+================================= BREAKPOINT 960px =================================
+*/
 
 
 @media screen and (min-width: 960px) {
@@ -232,89 +249,101 @@ article p {
     margin: 10px;
   }
 
-  /*main*/
+  /*
+  _________________________________ Main _________________________________
+  */
 
-    main {
-      width: 960px;
-      margin: 0 auto;
-      height: 100%;
-    }
+  main {
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+  }
 
-    .highlight {
-      width: 960px;
-      height: 340px;
-    }
+  .highlight {
+    width: 960px;
+    height: 340px;
+  }
 
-    ul {
-      float: left;
-      -webkit-padding-start: 0px;
-    }
-
-    .letters li {
-      list-style: none;
-      position: relative;
-      z-index: 1;
-      width: 230px;
-      height: 320px;
-      /*dev*/background: green;
-      margin-left: 5px;
-      margin-right: 5px;
-      }
-
-
-    article {
-      clear: both;
-      float: left;
-      width: 610px;
-      height: 630px;
-    }
-
-    article h1 {
-      font-size: 3.6em;
-      font-family: 'Open Sans';
-      font-weight: 300;
-    }
-
-    aside {
-      float: right;
-    }
-
-    .status {
-      width: 300px;
-      height: 100px;
-      /*dev*/background: #ccc;
-    }
-
-    .events {
-      /*dev*/background: green;
-      width: 300px;
-      height: 450px;
-    }
-
-    /*
-    _________________________________ Menu _________________________________
-    */
-
-    /* dropdown menu */
-    .menu ul ul {
-      display: none;
-    /*dev*/ font-size: 0.8em;
-    }
-    .menu li:hover * {
-    display:block;
-    }
-    a.menu-button {
-    display: none;
-    }
-    .menu {
-      display: block;
-      font-size: 1.6em;
-      width: 100%;
-    }
-    .menu > ul > li {
-    box-sizing: border-box;
-    display: block;
-    width: 137px;
+  ul {
     float: left;
-    text-align: center;
+    -webkit-padding-start: 0px;
+  }
+
+  .letters li {
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    width: 230px;
+    height: 320px;
+    /*dev*/background: green;
+    margin-left: 5px;
+    margin-right: 5px;
     }
+
+
+  article {
+    clear: both;
+    float: left;
+    width: 610px;
+    height: 630px;
+  }
+
+  article h1 {
+    font-size: 3.6em;
+    font-weight: 300;
+  }
+
+  aside {
+    float: right;
+  }
+
+  .status {
+    width: 300px;
+    height: 100px;
+    /*dev*/background: #ccc;
+  }
+
+  .events {
+    /*dev*/background: green;
+    width: 300px;
+    height: 450px;
+  }
+
+  /*
+  _________________________________ Menu _________________________________
+  */
+
+  /* dropdown menu */
+  .menu ul ul {
+    display: none;
+  /*dev*/ font-size: 0.8em;
+  }
+  .menu li:hover * {
+  display:block;
+  }
+  a.menu-button {
+  display: none;
+  }
+  .menu {
+    display: block;
+    font-size: 1.6em;
+    width: 100%;
+  }
+  .menu > ul > li {
+  box-sizing: border-box;
+  display: block;
+  width: 137px;
+  float: left;
+  text-align: center;
+  }
+
+  /*
+  _________________________________ Footer _________________________________
+  */
+
+  footer {
+    background-color: #ccd1d6;
+    font-size: 1.3em;
+  }
+
+}
