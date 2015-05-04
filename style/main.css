@@ -79,7 +79,6 @@ a.menu-button {
 .menu {
   display: none;
   font-size: 1.6em;
-/*dev*/ width: 300px;
 }
 #menu-target:target .menu-close,
 #menu-target:target .menu {
@@ -314,8 +313,14 @@ article p {
     display: none;
     }
     .menu {
-      height: 100px;
-      display: none;
+      display: block;
       font-size: 1.6em;
-    /*dev*/ width: 300px;
+      width: 100%;
+    }
+    .menu > ul > li {
+    box-sizing: border-box;
+    display: block;
+    width: 137px;
+    float: left;
+    text-align: center;
     }
