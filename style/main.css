@@ -77,7 +77,6 @@ a.menu-button {
     display: none;
 }
 .menu {
-  height: 100px;
   display: none;
   font-size: 1.6em;
 /*dev*/ width: 300px;
@@ -310,4 +309,13 @@ article p {
     }
     .menu li:hover * {
     display:block;
+    }
+    a.menu-button {
+    display: none;
+    }
+    .menu {
+      height: 100px;
+      display: none;
+      font-size: 1.6em;
+    /*dev*/ width: 300px;
     }
