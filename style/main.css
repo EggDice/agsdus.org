@@ -2,6 +2,7 @@
 ______________BASE, FIXES______________
 */
 html {
+  color: #33383d;
   font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
 }
@@ -30,6 +31,17 @@ ul, ol {
 }
 .clearfix {
     *zoom: 1;
+}
+
+/* average text-links */
+a {
+  border: none;
+  color: #52975e;
+  font-weight: 700;
+  text-decoration: none;
+}
+a:hover {
+  color: #0a4815;
 }
 
 /*
@@ -171,7 +183,7 @@ article p {
 }
 
 article h1 {
-  font-size: 2.4em;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.17;
   margin-bottom: 35px;
@@ -241,6 +253,15 @@ main.contentpage {
   margin: 60px 10px 0;
 }
 
+/* __ Address Box __ */
+
+.address-box {
+  background-color: #eef3f8;
+  list-style: none;
+  margin-bottom: 1.5em;
+  padding: 10px 15px;
+}
+
 
 /*
 ================================= BREAKPOINT 960px =================================
@@ -308,7 +329,7 @@ main.contentpage {
     height: 340px;
   }
 
-  ul {
+  .highlight ul {
     float: left;
     -webkit-padding-start: 0px;
   }
@@ -434,6 +455,13 @@ main.contentpage {
     float: none;
     width: auto;
     height: auto;
+  }
+
+  /* __ Address Box __ */
+
+  .address-box {
+    display: inline-block;
+    padding: 15px 20px;
   }
 
 }
