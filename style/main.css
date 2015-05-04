@@ -218,10 +218,7 @@ _________________________________ Footer _________________________________
 }
 .hon-code img {
   float: left;
-  margin-right: 20px;
-}
-.hon-code p {
-  margin-top: 3px;
+  margin: -2px 20px 0 0;
 }
 .line-break-before::before {
   content: '';
@@ -375,47 +372,33 @@ _________________________________ Footer _________________________________
     margin: 0 auto;
     width: 960px;
   }
-  
-
-}
-
-/*
-  footer {
-    background-color: #ccd1d6;
-    box-sizing: border-box;
-    color: #565a60;
-    font-size: 1.3em;
-    line-height: 1.35;
-    margin: 45px 0 0;
-    padding: 30px 10px 60px;
-    width: 100%;
-    clear: both;
+  .footer-info,
+  .hon-code {
+    float: left;
   }
   .footer-info {
-    margin-bottom: 40px;
+    margin: 0 40px 0 0;
+    width: 600px;
   }
-  .footer-link {
-    color: #565a60;
-    text-decoration: underline;
+  .hon-code {
+    width: 300px;
   }
-  .footer-link:hover,
-  .footer-link:active {
-    color: #000;
+  .last-updated,
+  .footer-domain {
+    display: inline;
+  }
+  .last-updated::before {
+    content: '- '
+  }
+  .line-before {
+    display: inline;
   }
   .line-before::before {
-    content: '_';
-    display: block;
-    text-decoration: none;
-  }
-  .hon-code img {
-    float: left;
-    margin-right: 20px;
-  }
-  .hon-code p {
-    margin-top: 3px;
-  }
-  .line-break-before::before {
     content: '';
-    display: block;
+    display: none;
   }
-*/
+  .contact-mailto {
+    margin-left: 20px;
+  }
+
+}
