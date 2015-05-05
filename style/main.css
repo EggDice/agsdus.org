@@ -92,11 +92,20 @@ a.menu-button {
 .menu {
   display: none;
   font-size: 1.6em;
+
 }
 #menu-target:target .menu-close,
 #menu-target:target .menu {
   display: block;
 }
+#menu-target:target .menu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  background: magenta;
+}
+
 
 
 
