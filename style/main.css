@@ -396,9 +396,15 @@ main.contentpage {
     display: none;
   /*dev*/ font-size: 0.8em;
   }
-  .menu li:hover * {
-  display:block;
+  .menu > ul > li {
+    position: relative;
   }
+  .menu > ul > li:hover ul {
+    display:block;
+    position: absolute;
+    top: 40px;/*ezt majd be kell állítani pontosan*/
+  }
+
   a.menu-button {
   display: none;
   }
