@@ -407,7 +407,7 @@ main.contentpage {
   .menu > ul > li:hover ul {
     display:block;
     position: absolute;
-    top: 40px;/*ezt majd be kell állítani pontosan*/
+    top: 15px;/*ezt majd be kell állítani pontosan*/
   }
   a.menu-button {
   display: none;
