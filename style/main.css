@@ -49,8 +49,8 @@ _________________________________ Menu _________________________________
 */
 .menu-button {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: 10px;
 }
 a.menu-button {
   display: block;
@@ -100,9 +100,10 @@ a.menu-button {
 }
 #menu-target:target .menu {
   position: absolute;
-  top: 45px;
-  left: 0;
-  width: 100%;
+  top: 55px;
+  left: 10px;
+  right: 10px;
+  padding: 10px;
   background: yellow;
 }
 
@@ -392,9 +393,6 @@ main.contentpage {
   */
 
   /* dropdown menu */
-  .wrapper nav {
-    color: red;
-  }
   .menu ul ul {
     display: none;
   /*dev*/ font-size: 0.8em;
