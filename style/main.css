@@ -47,6 +47,26 @@ a:hover {
 /*
 _________________________________ Menu _________________________________
 */
+.menu {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  width: 87%;
+  max-width: 310px;
+  background: yellow;
+  text-align: center;
+}
+.menu ul {
+  list-style-type: none;
+  display: block;
+}
+.menu ul > li a {
+  
+}
+.menu li li {
+  min-height: 45px;
+  display: block;
+}
 .menu-button {
   position: absolute;
   right: 10px;
@@ -92,19 +112,10 @@ a.menu-button {
 .menu {
   display: none;
   font-size: 1.6em;
-
 }
 #menu-target:target .menu-close,
 #menu-target:target .menu {
   display: block;
-}
-#menu-target:target .menu {
-  position: absolute;
-  top: 55px;
-  left: 10px;
-  right: 10px;
-  padding: 10px;
-  background: yellow;
 }
 
 
