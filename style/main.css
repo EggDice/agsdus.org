@@ -103,7 +103,7 @@ a.menu-button {
   top: 45px;
   left: 0;
   width: 100%;
-  background: magenta;
+  background: yellow;
 }
 
 
@@ -392,9 +392,14 @@ main.contentpage {
   */
 
   /* dropdown menu */
+  .wrapper nav {
+    color: red;
+  }
   .menu ul ul {
     display: none;
   /*dev*/ font-size: 0.8em;
+    z-index: 100;
+    background: yellow;
   }
   .menu > ul > li {
     position: relative;
@@ -404,9 +409,11 @@ main.contentpage {
     position: absolute;
     top: 40px;/*ezt majd be kell állítani pontosan*/
   }
-
   a.menu-button {
   display: none;
+  }
+  #menu-target:target .menu-close  {
+    display: none;
   }
   .menu {
     display: block;
