@@ -64,23 +64,20 @@ _________________________________ Menu _________________________________
   display: block;
   list-style-type: none;
 }
-.menu > ul > li > a {
-  display: block;
-  height: 35px;
-  padding-top: 10px;
-  background-color: #DDD;
-}
-
-.menu ul ul {
-  margin-top: -50px;
-}
-
+.menu > ul > li > a,
 .menu li li a {
   display: block;
   height: 45px;
   font-weight: 300;
   position: relative;
-  top: 5px;
+  top: 0px;
+  padding-top:
+}
+.menu > ul > li > a {
+  background-color: #DDD;
+}
+.menu ul ul {
+  margin-top: -50px;  /*az almenu elso li eleme valamiért tök magas azért kell ez de nem értem a szitut*/
 }
 .menu-button {
   position: absolute;
