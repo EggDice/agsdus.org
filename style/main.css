@@ -81,7 +81,7 @@ _________________________________ Menu _________________________________
 }
 .menu > ul > li > a {
   background-color: #52975e;
-  border-top: 1px solid #0a4815;
+  border-top: 1 px solid #0a4815;
   font-weight: 600;
   height: 42px;
   padding-top: 18px;
@@ -486,8 +486,19 @@ main.contentpage {
   _________________________________ Menu _________________________________
   */
 
+
+  .menu {
+    background: #0a4815;
+    position: static;
+    right: 10px;
+    text-align: center;
+    top: 55px;
+    width: 100%;
+    max-width: 100%;
+  }
+
   /* dropdown menu */
-  .menu ul ul {
+    .menu ul ul {
     background: yellow;
     display: none;
     /*dev*/ font-size: 0.8em;
