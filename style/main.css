@@ -345,6 +345,13 @@ main.contentpage {
 
 .address-box {}
 
+/* __ Figure Box __ */
+
+.figure-box img {
+  height: auto;
+  max-width: 268px;
+}
+
 /* __ Alert __ */
 
 .alert-box {
