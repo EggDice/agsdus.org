@@ -73,11 +73,15 @@ _________________________________ Menu _________________________________
   padding-top: 10px;
 }
 .menu li li a {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #2e703a;
+}
+.menu li ul li:first-child a,
+.menu li ul li:last-child a {
+  border-bottom: 0;
 }
 .menu > ul > li > a {
   background-color: #52975e;
-  border-top: 2px solid #0a4815;
+  border-top: 1px solid #0a4815;
   font-weight: 600;
   height: 42px;
   padding-top: 18px;
