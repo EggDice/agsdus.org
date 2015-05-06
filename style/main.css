@@ -40,7 +40,8 @@ a {
   font-weight: 700;
   text-decoration: none;
 }
-a:hover {
+a:hover,
+a:active {
   color: #0a4815;
 }
 
@@ -332,6 +333,13 @@ main.contentpage {
   border-color: #a8cbae;
   color: #3e4247;
 }
+.info-box-highlighted a {
+  color: #0a4815;
+}
+.info-box-highlighted a:hover
+.info-box-highlighted a:active {
+  color: #52975e;
+}
 
 /* __ Address Box __ */
 
@@ -349,6 +357,14 @@ main.contentpage {
 .alert-box strong {
   font-weight: normal;
 }
+.alert-box a {
+  color: #fff;
+  text-decoration: underline;
+}
+.alert-box a:hover,
+.alert-box a:active {
+  color: #600000;
+}
 
 /* Content ul & ol */
 
@@ -364,6 +380,13 @@ main.contentpage {
 .content-ul li,
 .content-ol li {
   margin-bottom: 0.2em;
+}
+
+/* __ BOX LINK __ */
+
+.box-link:hover .info-box,
+.box-link:active .info-box {
+  opacity: 0.8;
 }
 
 
