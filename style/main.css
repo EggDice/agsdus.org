@@ -71,13 +71,13 @@ _________________________________ Menu _________________________________
   font-weight: 300;
   position: relative;
   top: 0px;
-  padding-top:
 }
 .menu > ul > li > a {
-  background-color: #DDD;
+  background-color: #52975e;
+  font-weight: 600;
 }
 .menu ul ul {
-  margin-top: -50px;  /*az almenu elso li eleme valamiért tök magas azért kell ez de nem értem a szitut*/
+  margin-top: -45px;  /*az almenu elso li eleme valamiért dupla magas azért kell ez de nem értem a szitut*/
 }
 .menu-button {
   position: absolute;
