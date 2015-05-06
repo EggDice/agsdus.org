@@ -48,13 +48,17 @@ a:hover {
 _________________________________ Menu _________________________________
 */
 .menu {
-  background: yellow;
+  background: #0a4815;
   max-width: 310px;
   position: absolute;
   right: 10px;
   text-align: center;
   top: 55px;
   width: 93%;
+}
+.menu a {
+  color: white;
+  font-weight: 600;
 }
 .menu ul {
   display: block;
@@ -64,16 +68,19 @@ _________________________________ Menu _________________________________
   display: block;
   height: 35px;
   padding-top: 10px;
+  background-color: #DDD;
 }
 
-.menu ul ul  {
-  margin-top: -50px;  
+.menu ul ul {
+  margin-top: -50px;
 }
 
 .menu li li a {
   display: block;
-  height: 35px;
-  padding-top: 10px;
+  height: 45px;
+  font-weight: 300;
+  position: relative;
+  top: 5px;
 }
 .menu-button {
   position: absolute;
@@ -323,8 +330,8 @@ main.contentpage {
   background-color: #aa4b4b;
   border-color: #aa4b4b;
   color: #fff;
-  text-align: center; 
-  padding: 15px 10%; 
+  text-align: center;
+  padding: 15px 10%;
 }
 .alert-box strong {
   font-weight: normal;
@@ -580,7 +587,7 @@ main.contentpage {
   /* __ Alert __ */
 
   .alert-box {
-    padding: 15px 12%; 
+    padding: 15px 12%;
   }
 
   /* Content ul & ol */
