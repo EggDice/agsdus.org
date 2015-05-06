@@ -10,7 +10,7 @@ html {
 /* user agent stylesheet resets  */
 p, h1, ul, ol, h1, h2, h3, blockquote {
 	-webkit-margin-before: 0;
-  	-webkit-margin-after: 0;
+  -webkit-margin-after: 0;
 }
 blockquote {
 	-webkit-margin-start: 0;
@@ -23,14 +23,14 @@ ul, ol {
 /*   http://nicolasgallagher.com/micro-clearfix-hack/   */
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 /* average text-links */
@@ -48,21 +48,21 @@ a:hover {
 _________________________________ Menu _________________________________
 */
 .menu {
-  position: absolute;
-  top: 55px;
-  right: 10px;
-  width: 93%;
-  max-width: 310px;
   background: yellow;
+  max-width: 310px;
+  position: absolute;
+  right: 10px;
   text-align: center;
+  top: 55px;
+  width: 93%;
 }
 .menu ul {
-  list-style-type: none;
   display: block;
+  list-style-type: none;
 }
 .menu > ul > li > a {
-  height: 35px;
   display: block;
+  height: 35px;
   padding-top: 10px;
 }
 
@@ -71,8 +71,8 @@ _________________________________ Menu _________________________________
 }
 
 .menu li li a {
-  height: 35px;
   display: block;
+  height: 35px;
   padding-top: 10px;
 }
 .menu-button {
@@ -81,41 +81,41 @@ _________________________________ Menu _________________________________
   top: 10px;
 }
 a.menu-button {
+  background-color: #dde2e7;
   display: block;
-  width: 128px;
   height: 45px;
   text-align: center;
   text-decoration: none;
-  background-color: #dde2e7;
+  width: 128px;
 }
 .menu-button::before {
+  color: #0a4815;
   content: 'Menu';
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   line-height: 3.1;
-  color: #0a4815;
 }
 .menu-button div {
-  width: 21px;
+  background: #0a4815;
+  float: right;
   height: 19px;
   padding: 13px 12px;
-  float: right;
-  background: #0a4815;
+  width: 21px;
 }
 .menu-button div::before,
 .menu-button div::after {
-  display: block;
   content: '';
-  height: 5px;
   border-top: 3px solid #fff;
+  display: block;
+  height: 5px;
 }
 .menu-button div::after {
   border-bottom: 3px solid #fff;
 }
 .menu-button.menu-close {
-    display: none;
+  display: none;
 }
 .menu {
   display: none;
@@ -136,11 +136,11 @@ _________________________________ Header _________________________________
   padding: 20px;
 }
 
-header {
+.site-header  {
   margin-left: 10px;
 }
 
-header h1 {
+.site-header  h1 {
   font-size: 3.4em;
   color: #0a4815;
   letter-spacing: 3px;
@@ -148,29 +148,25 @@ header h1 {
   line-height: 110%;
 }
 
-a {
-  text-decoration: none;
-}
-
-header p {
-  font-family: 'Georgia';
-  font-style: italic;
-  font-size: 1.4em;
+.site-header  p {
   color: #696d71;
+  font-family: 'Georgia';
+  font-size: 1.4em;
+  font-style: italic;
 }
 
 .pdf {
-  font-size: 1.4em;
   background: #dde2e7;
-  line-height: 48px;
+  font-size: 1.4em;
   height: 48px;
-  margin-top: 30px;
+  line-height: 48px;
   margin-right: 10px;
+  margin-top: 30px;
 }
 
 .pdf img {
-  padding: 10px;
   float: left;
+  padding: 10px;
 }
 
 .pdf a {
@@ -191,14 +187,13 @@ _________________________________ Main _________________________________
   margin-top: 30px;
 }
 
-
 .letters li {
-  float: left;
-  list-style: none;
-  width: 300px;
-  height: 100px;
   background: green;
+  float: left;
+  height: 100px;
+  list-style: none;
   margin: 5px;
+  width: 300px;
 }
 
 article {
@@ -220,17 +215,13 @@ article h1 {
 
 .status {
   font-size: 1.8em;
-  text-transform: uppercase;
   margin: 30px 10px 15px 10px;
-}
-
-.status a {
-  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .events {
-  margin: 30px 10px 15px 10px;
   font-size: 1.8em;
+  margin: 30px 10px 15px 10px;
   text-transform: uppercase;
 }
 
@@ -302,8 +293,8 @@ main.contentpage {
     width: 100%;
   }
   .wrapper {
-    width: 960px;
     margin: 0 auto;
+    width: 960px;
   }
   .logo {
     float: left;
@@ -311,27 +302,27 @@ main.contentpage {
 
   .headertext {
     float: left;
-    width: 530px;
     margin-left: 30px;
-    }
+    width: 530px;
+  }
 
   header h1 {
-    margin-top: 30px;
     letter-spacing: 4px;
+    margin-top: 30px;
     text-align: center;
   }
 
   header p {
+    letter-spacing: 1px;
     margin-left: 100px;
     margin-top: 30px;
-    letter-spacing: 1px;
   }
 
   .pdf {
     float: right;
-    width: 150px;
     height: 150px;
     margin: 15px;
+    width: 150px;
   }
 
   .pdf img {
@@ -348,38 +339,37 @@ main.contentpage {
   */
 
   main {
-    width: 960px;
-    margin: 0 auto;
     height: 100%;
+    margin: 0 auto;
+    width: 960px;
   }
 
   .highlight {
-    width: 960px;
     height: 340px;
+    width: 960px;
   }
 
   .highlight ul {
     float: left;
-    -webkit-padding-start: 0px;
   }
 
   .letters li {
-    list-style: none;
-    position: relative;
-    z-index: 1;
-    width: 230px;
-    height: 320px;
     /*dev*/background: green;
+    height: 320px;
+    list-style: none;
     margin-left: 5px;
     margin-right: 5px;
-    }
+    position: relative;
+    width: 230px;
+    z-index: 1;
+  }
 
 
   article {
     clear: both;
     float: left;
-    width: 610px;
     height: 630px;
+    width: 610px;
   }
 
   article p {
@@ -396,15 +386,15 @@ main.contentpage {
   }
 
   .status {
-    width: 300px;
-    height: 100px;
     /*dev*/background: #ccc;
+    height: 100px;
+    width: 300px;
   }
 
   .events {
     /*dev*/background: green;
-    width: 300px;
     height: 450px;
+    width: 300px;
   }
 
   /*
@@ -413,31 +403,31 @@ main.contentpage {
 
   /* dropdown menu */
   .menu ul ul {
-    display: none;
-  /*dev*/ font-size: 0.8em;
-    z-index: 100;
     background: yellow;
+    display: none;
+    /*dev*/ font-size: 0.8em;
+    z-index: 100;
   }
   .menu > ul > li {
     position: relative;
   }
   .menu > ul > li:hover ul {
-    display:block;
+    display: block;
     position: absolute;
-    top: 15px;/*ezt majd be kell állítani pontosan*/
+    top: 15px; /*ezt majd be kell állítani pontosan*/
   }
   a.menu-button {
-  display: none;
+    display: none;
   }
   #menu-target:target .menu-close  {
     display: none;
   }
   #menu-target:target .menu {
+    background: yellow;
+    left: 0;
     position: relative;
     top: 0;
-    left: 0;
     width: 100%;
-    background: yellow;
   }
   .menu {
     display: block;
@@ -445,11 +435,11 @@ main.contentpage {
     width: 100%;
   }
   .menu > ul > li {
-  box-sizing: border-box;
-  display: block;
-  width: 137px;
-  float: left;
-  text-align: center;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    text-align: center;
+    width: 137px;
   }
 
   /*
