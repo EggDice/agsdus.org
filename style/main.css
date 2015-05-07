@@ -449,6 +449,13 @@ h3 {
     max-width: 300px;
     width: auto;
   }
+  .figure-box.header-figbox h1,
+  .figure-box.header-figbox h2,
+  .figure-box.header-figbox h3,
+  .figure-box.header-figbox h4,
+  .figure-box.header-figbox h5 {
+    margin: 1rem 0 2rem;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -459,6 +466,9 @@ h3 {
   .figure-box div {
     float: right;
     width: 68%;
+  }
+  .header-figbox {
+    padding: 1em 0;
   }
   .figure-box.header-figbox {
     text-align: left;
