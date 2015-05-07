@@ -650,9 +650,7 @@ h3 {
   _________________________________ Menu _________________________________
   */
 
-
   .menu {
-    background: #0a4815;
     position: static;
     right: 10px;
     text-align: center;
@@ -660,7 +658,6 @@ h3 {
     width: 100%;
     max-width: 100%;
   }
-
   /* dropdown menu */
     .menu ul ul {
     background: yellow;
@@ -670,6 +667,8 @@ h3 {
   }
   .menu > ul > li {
     position: relative;
+    background: #52975e;
+    box-shadow: 2.5px 4.33px 0px 0px rgba(221, 226, 231, 1.0);
   }
   .menu > ul > li:hover ul {
     display: block;
