@@ -217,6 +217,14 @@ _________________________________ Main _________________________________
   width: 300px;
 }
 
+.letters li:first-child {
+  margin-left: 0;
+}
+
+.letters li:last-child {
+  margin-right: 0;
+}
+
 article {
   clear: both;
   font-size: 1.4em;
@@ -244,6 +252,7 @@ article h1 {
   font-size: 1.8em;
   margin: 30px 10px 15px 10px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /*
@@ -651,5 +660,3 @@ main.contentpage {
     font-size: 1.6rem;
     margin: -0.5em 2.5em 1.5em;
   }
-
-}
