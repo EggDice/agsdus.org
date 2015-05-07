@@ -76,7 +76,6 @@ _________________________________ Menu _________________________________
 .menu li li a {
   border-bottom: 1px solid #2e703a;
 }
-.menu li ul li:first-child a,
 .menu li ul li:last-child a {
   border-bottom: 0;
 }
@@ -84,14 +83,11 @@ _________________________________ Menu _________________________________
   background-color: #52975e;
   border-top: 1px solid #0a4815;
   font-weight: 600;
-  height: 42px;
-  padding-top: 18px;
+/*  height: 42px;
+  padding-top: 18px;*/
 }
 .menu > ul li:first-child > a {
   border-top: 0;
-}
-.menu ul ul {
-  /*margin-top: -45px;  az almenu elso li eleme valamiért dupla magas azért kell ez de nem értem a szitut*/
 }
 .menu-button {
   position: absolute;
