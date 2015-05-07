@@ -91,7 +91,7 @@ _________________________________ Menu _________________________________
   border-top: 0;
 }
 .menu ul ul {
-  margin-top: -45px;  /*az almenu elso li eleme valamiért dupla magas azért kell ez de nem értem a szitut*/
+  /*margin-top: -45px;  az almenu elso li eleme valamiért dupla magas azért kell ez de nem értem a szitut*/
 }
 .menu-button {
   position: absolute;
