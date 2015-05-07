@@ -250,17 +250,39 @@ article h1 {
 }
 
 .events {
-  background: #52975e;
-  font-size: 1.8em;
+  background: #e9e9e9;
   margin: 30px 10px 15px;
 }
 
 .events a {
   color: #fff;
+  background: #52975e;
   display: block;
+  font-size: 1.8em;
   font-weight: 300;
   text-align: center;
   line-height: 45px;
+}
+
+.events ul {
+  list-style: none;
+  background: #e9e9e9;
+  font-size: 14px;
+  color: #666666;
+  -webkit-padding-start: 0;
+}
+
+.events li {
+  margin: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+.events li a {
+  background: #e9e9e9;
+  color: #52975e;
+  font-size: 1.2em;
 }
 
 /*
