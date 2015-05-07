@@ -8,7 +8,7 @@ html {
 }
 
 /* user agent stylesheet resets  */
-p, h1, ul, ol, h1, h2, h3, blockquote {
+p, h1, ul, ol, h1, h2, h3, h4, blockquote {
 	-webkit-margin-before: 0;
   -webkit-margin-after: 0;
 }
@@ -358,7 +358,7 @@ main.contentpage {
 .info-box ul {
   list-style: none;
 }
-.info-box h3 {
+h3 {
   font-size: 1.1em;
   font-weight: bold;
   margin: 5px 0 8px;
@@ -388,7 +388,46 @@ main.contentpage {
 
 .figure-box img {
   height: auto;
-  max-width: 268px;
+  width: 100%;
+}
+.figure-box h1,
+.figure-box h2,
+.figure-box h3,
+.figure-box h4,
+.figure-box h5 {
+  margin: 1.5rem 0 1rem;
+}
+.figure-box h4 {
+  font-size: 1.1em;
+}
+.figure-box + .figure-box {
+  margin-top: -1.7em;
+}
+
+@media screen and (min-width: 340px)  {
+  .figure-box img {
+    float: left;
+    margin: 0 1em 0.5em 0;
+    width: 38%;
+  }
+  .figure-box h1,
+  .figure-box h2,
+  .figure-box h3,
+  .figure-box h4,
+  .figure-box h5 {
+    margin: 0 0 1.5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .figure-box img {
+    margin: 0 2% 0 0;
+    width: 30%;
+  }
+  .figure-box div {
+    float: right;
+    width: 68%;
+  }
 }
 
 /* __ Alert __ */
@@ -665,6 +704,10 @@ main.contentpage {
     width: auto;
     height: auto;
   }
+  .contentpage h2 {
+    font-size: 1.7em;
+    margin: 3em 0 1em;
+  }
 
   /* __ Info Box __ */
 
@@ -673,7 +716,7 @@ main.contentpage {
     padding: 15px 20px;
   }
 
-  .info-box h3 {
+  h3 {
     font-size: 1.1em;
     margin: 5px 0 8px;
   }
@@ -683,6 +726,17 @@ main.contentpage {
   .address-box {
     display: inline-block;
     margin-top: 1em;
+  }
+
+  /* __ Figure Box __ */
+
+  .figure-box img {
+    margin: 0 18px 0 0;
+    width: 200px;
+  }
+  .figure-box div {
+    float: right;
+    width: 540px;
   }
 
   /* __ Alert __ */
