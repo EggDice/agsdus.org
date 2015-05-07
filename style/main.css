@@ -236,9 +236,20 @@ article h1 {
 }
 
 .status {
+  background: #dedede;
   font-size: 1.8em;
+  height: 100px;
   margin: 30px 10px 15px 10px;
+  text-align: center;
   text-transform: uppercase;
+}
+
+.status a {
+  color: #0a4815;
+  display: block;
+  padding: 35px;
+  text-decoration: none;
+
 }
 
 .events {
@@ -509,9 +520,12 @@ main.contentpage {
   }
 
   .status {
-    /*dev*/background: #ccc;
     height: 100px;
     width: 300px;
+  }
+
+  .status a {
+    padding: 28px;
   }
 
   .events {
