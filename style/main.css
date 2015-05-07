@@ -723,12 +723,15 @@ h3 {
     width: 137px;
   }
   .menu li li a {
-  border-bottom: 1px solid #c0c8d1;
-  padding: 5px;
-  color: #52975e;
-  height: auto;
-  color: #0a4815;
-}
+    border-bottom: 1px solid #c0c8d1;
+    padding: 5px;
+    color: #52975e;
+    height: auto;
+    color: #0a4815;
+  }
+  .menu li li:hover {
+    background: #f6f8fa;
+  }
   #menu-target:target .menu-close  {
     display: none;
   }
