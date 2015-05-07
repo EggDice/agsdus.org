@@ -724,9 +724,10 @@ h3 {
   }
   .menu li li a {
   border-bottom: 1px solid #c0c8d1;
-  height: 25px;
-  padding-top: 10px;
+  padding: 5px;
   color: #52975e;
+  height: auto;
+  color: #0a4815;
 }
   #menu-target:target .menu-close  {
     display: none;
