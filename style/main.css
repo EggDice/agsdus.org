@@ -736,10 +736,9 @@ h3 {
   }
   /* dropdown menu */
     .menu ul ul {
-    background: #dde2e7;
     display: none;
     z-index: 100;
-    width: 137px;
+    width: 135px;
   }
   .menu > ul > li {
     position: relative;
@@ -748,17 +747,18 @@ h3 {
   .menu > ul > li > a {
     background-color: #52975e;
     border-top: 0;
+    border-right: 1px solid rgba(110, 168, 120, 0.9);
     font-weight: 300;
     padding-top: 12px;
     height: 33px;
   }
   .menu > ul > li:hover > a{
-    background: #7cae87;
+    background: #0a4815;
   }
   .menu > ul > li:hover ul {
     display: block;
     position: absolute;
-    top: 45px; /*ezt majd be kell állítani pontosan*/
+    top: 45px;
   }
   a.menu-button {
     display: none;
@@ -768,17 +768,17 @@ h3 {
     display: block;
     float: left;
     text-align: center;
-    width: 137px;
+      width: 136px;
   }
   .menu li li a {
-    border-bottom: 1px solid #c0c8d1;
-    padding: 5px;
-    color: #52975e;
+    border-bottom: 1px solid #97c19e;
+    padding: 10px;
     height: auto;
-    color: #0a4815;
+    background: #52975e;
   }
-  .menu li li:hover {
+  .menu li li a:hover {
     background: #f6f8fa;
+    background: #0a4815;
   }
   #menu-target:target .menu-close  {
     display: none;
