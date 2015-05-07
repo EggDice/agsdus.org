@@ -51,6 +51,7 @@ _________________________________ Menu _________________________________
 .menu {
   display: none;
   font-size: 1.6em;
+  letter-spacing: 0.4px;
   background: #0a4815;
   position: absolute;
   right: 10px;
@@ -99,7 +100,7 @@ _________________________________ Menu _________________________________
 a.menu-button {
   background-color: #dde2e7;
   display: block;
-  height: 45px;
+  min-height: 45px;
   text-align: center;
   text-decoration: none;
   width: 128px;
@@ -677,6 +678,7 @@ h3 {
   .menu {
     display: block;
     font-size: 1.4em;
+    letter-spacing: 0.5px;
     width: 100%;
     position: static;
     right: 10px;
@@ -688,13 +690,12 @@ h3 {
     .menu ul ul {
     background: #dde2e7;
     display: none;
-    /*dev*/ font-size: 0.8em;
     z-index: 100;
     width: 137px;
   }
   .menu > ul > li {
     position: relative;
-    box-shadow: 2.5px 4.33px 0px 0px rgba(221, 226, 231, 1.0);
+    box-shadow: 0px 4.33px 0px 0px rgba(221, 226, 231, 1.0);
   }
   .menu > ul > li > a {
     background-color: #52975e;
@@ -704,7 +705,7 @@ h3 {
     height: 33px;
   }
   .menu > ul > li:hover > a{
-    background: #98bda3;
+    background: #7cae87;
   }
   .menu > ul > li:hover ul {
     display: block;
@@ -721,6 +722,12 @@ h3 {
     text-align: center;
     width: 137px;
   }
+  .menu li li a {
+  border-bottom: 1px solid #c0c8d1;
+  height: 25px;
+  padding-top: 10px;
+  color: #52975e;
+}
   #menu-target:target .menu-close  {
     display: none;
   }
