@@ -479,6 +479,13 @@ main.contentpage {
     z-index: 1;
   }
 
+  .letters li:first-child {
+    margin-left: 0;
+  }
+
+  .letters li:last-child {
+    margin-right: 0;
+  }
 
   article {
     clear: both;
