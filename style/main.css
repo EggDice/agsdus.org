@@ -225,6 +225,10 @@ article p {
   margin: 0 0 1.5em;
 }
 
+article p:last-child {
+  margin: 0;
+}
+
 article h1 {
   font-size: 2.4rem;
   font-weight: 400;
@@ -404,6 +408,25 @@ h3 {
   margin-top: -1.7em;
 }
 
+/* __ Figure Header Box __ */
+
+.header-figbox {
+  border-bottom: 1px solid #33383d;
+  border-top: 1px solid #33383d;
+  margin: 5em 0 3em;
+  padding: 1em 0 2em;
+}
+.header-figbox div {
+  padding: 0 1em;
+  text-align: center;
+}
+.header-figbox-info {
+  color: #83888c;
+  font-size: 0.9em;
+}
+
+/* __ Figure Box & Figure Header Box - BREAKPOINTS __ */
+
 @media screen and (min-width: 340px)  {
   .figure-box img {
     float: left;
@@ -417,6 +440,15 @@ h3 {
   .figure-box h5 {
     margin: 0 0 1.5rem;
   }
+  .figure-box.header-figbox {
+    text-align: center;
+  }
+  .figure-box.header-figbox img {
+    float: none;
+    margin: 0 auto 1em;
+    max-width: 300px;
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -427,6 +459,19 @@ h3 {
   .figure-box div {
     float: right;
     width: 68%;
+  }
+  .figure-box.header-figbox {
+    text-align: left;
+  }
+  .figure-box.header-figbox img {
+    float: left;
+    margin: 0 2% 0 0;
+    max-width: none;
+    width: 30%;
+  }
+  .header-figbox div {
+    padding: 0;
+    text-align: center;
   }
 }
 
@@ -737,6 +782,16 @@ h3 {
   .figure-box div {
     float: right;
     width: 540px;
+  }
+
+  /* __ Figure Header Box __ */
+
+  .figure-box.header-figbox h1,
+  .figure-box.header-figbox h2,
+  .figure-box.header-figbox h3,
+  .figure-box.header-figbox h4,
+  .figure-box.header-figbox h5 {
+    margin: 1.5rem 0 2.5rem;
   }
 
   /* __ Alert __ */
