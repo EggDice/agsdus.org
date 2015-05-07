@@ -147,9 +147,6 @@ a.menu-button {
   display: block;
 }
 
-
-
-
 /*
 _________________________________ Header _________________________________
 */
@@ -253,9 +250,17 @@ article h1 {
 }
 
 .events {
+  background: #52975e;
   font-size: 1.8em;
-  margin: 30px 10px 15px 10px;
-  text-transform: uppercase;
+  margin: 30px 10px 15px;
+}
+
+.events a {
+  color: #fff;
+  display: block;
+  font-weight: 300;
+  text-align: center;
+  line-height: 45px;
 }
 
 /*
@@ -529,8 +534,6 @@ main.contentpage {
   }
 
   .events {
-    /*dev*/background: green;
-    height: 450px;
     width: 300px;
   }
 
