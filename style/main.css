@@ -700,11 +700,16 @@ h3 {
     background-color: #52975e;
     border-top: 0;
     font-weight: 300;
+    padding-top: 12px;
+    height: 33px;
+  }
+  .menu > ul > li:hover > a{
+    background: #98bda3;
   }
   .menu > ul > li:hover ul {
     display: block;
     position: absolute;
-    top: 15px; /*ezt majd be kell állítani pontosan*/
+    top: 45px; /*ezt majd be kell állítani pontosan*/
   }
   a.menu-button {
     display: none;
