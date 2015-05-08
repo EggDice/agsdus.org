@@ -219,6 +219,17 @@ _________________________________ Main _________________________________
   width: 60px;
 }
 
+.bluetext {
+  background: #cecfd9;
+  color: #666666;
+  float: right;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 100px;
+  text-align: center;
+  width: 200px;
+}
+
 .green {
   background: #99ddd1;
   border: 20px solid #08ad90;
@@ -230,8 +241,20 @@ _________________________________ Main _________________________________
   width: 60px;
 }
 
+.greentext {
+  background: #d3f1eb;
+  color: #666666;
+  float: right;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+}
+
 .yellow {
-  background: #ffd87f;
+  background: #ffe8b2;
   border: 20px solid #ffc94b;
   color: white;
   display: inline-block;
@@ -240,6 +263,18 @@ _________________________________ Main _________________________________
   text-align: center;
   width: 60px;
 }
+
+.yellowtext {
+  float: right;
+  background: #ffe8b2;
+  color: #666666;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 100px;
+  text-align: center;
+  width: 200px;
+}
+
 
 .red {
   background: #ad5b5b;
@@ -250,6 +285,17 @@ _________________________________ Main _________________________________
   height: 60px;
   text-align: center;
   width: 60px;
+}
+
+.redtext {
+  background: #e7cece;
+  color: #666666;
+  float: right;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 100px;
+  text-align: center;
+  width: 200px;
 }
 
 
@@ -271,7 +317,7 @@ article h1 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.17;
-  margin-bottom: 35px;
+  margin: 35px 0;
 }
 
 .status {
@@ -297,13 +343,13 @@ article h1 {
 }
 
 .events a {
-  color: #fff;
   background: #52975e;
+  color: #fff;
   display: block;
   font-size: 1.8em;
   font-weight: 300;
-  text-align: center;
   line-height: 45px;
+  text-align: center;
 }
 
 .events ul {
@@ -740,31 +786,47 @@ h3 {
   }
 
   .blue {
+    border: 45px solid #0c0d43;
     font-size: 100px;
     height: 140px;
     width: 140px;
-    border: 45px solid #0c0d43;
+  }
+
+  .bluetext {
+    width: 230px;
   }
 
   .green {
+    border: 45px solid #08ad90;
     font-size: 100px;
     height: 140px;
     width: 140px;
-    border: 45px solid #08ad90;
+  }
+
+  .greentext {
+    width: 230px;
   }
 
   .yellow {
+    border: 45px solid #ffc94b;
     font-size: 100px;
     height: 140px;
     width: 140px;
-    border: 45px solid #ffc94b;
+  }
+
+  .yellowtext {
+    width: 230px;
   }
 
   .red {
+    border: 45px solid #a24343;
     font-size: 100px;
     height: 140px;
     width: 140px;
-    border: 45px solid #a24343;
+  }
+
+  .redtext {
+    width: 230px;
   }
 
 
