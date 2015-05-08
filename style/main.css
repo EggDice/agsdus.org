@@ -201,13 +201,57 @@ _________________________________ Main _________________________________
 }
 
 .letters li {
-  background: green;
   float: left;
   height: 100px;
   list-style: none;
   margin: 5px;
-  width: 300px;
 }
+
+
+.blue {
+  background: #80809d;
+  border: 20px solid #0c0d43;
+  color: white;
+  display: inline-block;
+  font-size: 45px;
+  height: 60px;
+  text-align: center;
+  width: 60px;
+}
+
+.green {
+  background: #99ddd1;
+  border: 20px solid #08ad90;
+  color: white;
+  display: inline-block;
+  font-size: 45px;
+  height: 60px;
+  text-align: center;
+  width: 60px;
+}
+
+.yellow {
+  background: #ffd87f;
+  border: 20px solid #ffc94b;
+  color: white;
+  display: inline-block;
+  font-size: 45px;
+  height: 60px;
+  text-align: center;
+  width: 60px;
+}
+
+.red {
+  background: #ad5b5b;
+  border: 20px solid #a24343;
+  color: white;
+  display: inline-block;
+  font-size: 45px;
+  height: 60px;
+  text-align: center;
+  width: 60px;
+}
+
 
 article {
   clear: both;
@@ -282,14 +326,14 @@ article h1 {
 }
 
 .more a{
+  background: transparent;
+  border-bottom: 1px solid white;
   color: #52975e;
   font-size: 1em;
   font-weight: bold;
-  background: transparent;
-  text-align: right;
-  padding-right: 10px;
-  border-bottom: 1px solid white;
   margin: 0 10px;
+  padding-right: 10px;
+  text-align: right;
 }
 
 /*
