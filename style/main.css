@@ -722,7 +722,6 @@ h3 {
   }
 
   .letters li {
-    /*dev*/background: green;
     height: 320px;
     list-style: none;
     margin-left: 5px;
@@ -739,6 +738,35 @@ h3 {
   .letters li:last-child {
     margin-right: 0;
   }
+
+  .blue {
+    font-size: 100px;
+    height: 140px;
+    width: 140px;
+    border: 45px solid #0c0d43;
+  }
+
+  .green {
+    font-size: 100px;
+    height: 140px;
+    width: 140px;
+    border: 45px solid #08ad90;
+  }
+
+  .yellow {
+    font-size: 100px;
+    height: 140px;
+    width: 140px;
+    border: 45px solid #ffc94b;
+  }
+
+  .red {
+    font-size: 100px;
+    height: 140px;
+    width: 140px;
+    border: 45px solid #a24343;
+  }
+
 
   article {
     clear: both;
