@@ -246,11 +246,12 @@ _________________________________ Main _________________________________
 
 .greentext {
   background: #d3f1eb;
+  box-sizing: border-box;
   color: #666666;
   float: right;
   font-size: 17px;
   font-weight: 300;
-  line-height: 50px;
+  padding-top: 27px;
   text-align: center;
   width: 200px;
   height: 100px;
