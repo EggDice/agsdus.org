@@ -485,6 +485,17 @@ h3 {
 
 /* __ Figure Box __ */
 
+.figure-box:before,
+.figure-box:after {
+  content: " ";
+  display: table;
+}
+.figure-box:after {
+  clear: both;
+}
+.figure-box {
+  *zoom: 1;
+}
 .figure-box img {
   height: auto;
   width: 100%;
