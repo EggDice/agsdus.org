@@ -279,7 +279,6 @@ _________________________________ Main _________________________________
   width: 200px;
 }
 
-
 .red {
   background: #ad5b5b;
   border: 20px solid #a24343;
@@ -307,6 +306,8 @@ article {
   clear: both;
   font-size: 1.4em;
   line-height: 1.4;
+  margin: 0 0.5em;
+  padding-top: 1rem;
 }
 
 article p {
@@ -1103,6 +1104,8 @@ h3 {
     float: left;
     font-size: 1.6rem;
     height: 630px;
+    margin: 0 auto;
+    padding: 0;
     width: 610px;
   }
 
