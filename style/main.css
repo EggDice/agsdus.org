@@ -208,11 +208,25 @@ ___highlight___
 
 .letters li {
   float: left;
-  height: 100px;
+  height: 110px;
   list-style: none;
-  margin: 5px;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+  width: 100%;
 }
 
+.letters li a {
+  display: block;
+}
+
+.letters li a:last-child {
+  width: 100%;
+  padding-left: 100px;
+  position: relative;
+  top: -100px;
+  z-index: -1;
+  box-sizing: border-box;
+}
 
 .blue {
   background: #80809d;
@@ -228,7 +242,6 @@ ___highlight___
 .bluetext {
   background: #cecfd9;
   color: #666666;
-  float: right;
   font-size: 17px;
   font-weight: 300;
   line-height: 100px;
@@ -251,7 +264,6 @@ ___highlight___
   background: #d3f1eb;
   box-sizing: border-box;
   color: #666666;
-  float: right;
   font-size: 17px;
   font-weight: 300;
   padding-top: 27px;
@@ -272,7 +284,6 @@ ___highlight___
 }
 
 .yellowtext {
-  float: right;
   background: #ffe8b2;
   color: #666666;
   font-size: 17px;
@@ -296,7 +307,6 @@ ___highlight___
 .redtext {
   background: #e7cece;
   color: #666666;
-  float: right;
   font-size: 17px;
   font-weight: 300;
   line-height: 100px;
@@ -934,6 +944,12 @@ h3 {
   opacity: 0.8;
 }
 
+@media screen and (min-width: 600px) {
+  .letters li {
+    width: 50%;
+  }
+}
+
 
 /*
 ================================= BREAKPOINT 960px =================================
@@ -1036,20 +1052,26 @@ h3 {
   .letters li {
     height: 320px;
     list-style: none;
-    margin-left: 3px;
-    margin-right: 4px;
     position: relative;
-    width: 230px;
+    width: 229px;
+    margin-right: 8px;
     z-index: 1;
+    box-sizing: content-box;
+    border: 0;
   }
 
-  .letters li:first-child {
-    margin-left: 0;
+  .letters li a:first-child {
+    line-height: 140px;
   }
 
   .letters li:last-child {
     margin-right: 0;
-    margin-left: 2px;
+  }
+
+
+  .letters li a:last-child {
+    position: static;
+    padding-left: 0;
   }
 
   .blue {
