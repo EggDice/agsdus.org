@@ -1020,12 +1020,12 @@ h3 {
   main {
     height: 100%;
     margin: 0 auto;
-    width: 960px;
+    width: 940px;
   }
 
   .highlight {
     height: 340px;
-    width: 960px;
+    width: 940px;
   }
 
   .highlight ul {
@@ -1123,7 +1123,7 @@ h3 {
     height: 630px;
     margin: 0 auto;
     padding: 0;
-    width: 610px;
+    width: 600px;
   }
 
   article p {}
@@ -1139,6 +1139,7 @@ h3 {
 
   .status {
     height: 100px;
+    margin: 30px 0 15px;
     width: 300px;
   }
 
@@ -1152,6 +1153,7 @@ h3 {
   }
 
   .events {
+    margin: 30px 0 15px;
     width: 300px;
   }
 
