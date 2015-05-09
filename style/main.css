@@ -962,7 +962,7 @@ h3 {
     background: #569a62;
   }
 
-  .pdf a:hover {
+  .pdf:hover a {
     color: #ffffff;
   }
 
