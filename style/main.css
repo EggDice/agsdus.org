@@ -872,10 +872,41 @@ h3 {
 .highlight-red {
   color: #c42d2d;
 }
-.membership-pay {
+.membership {
   border-bottom: 1px solid rgba(0,0,0,0.2);
   border-top: 1px solid rgba(0,0,0,0.2);
-  padding: 1em 0;
+  padding: 1em 0 2em;
+}
+.membership-pay {
+  margin-top: 2em;
+}
+.membership-pay div {
+  background-color: #eef3f8;
+  border: 1px solid rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+.membership-pay div + div {
+  background-color: #fff;
+  border-top: none;
+}
+
+@media screen and (min-width: 620px)  {
+  .membership-pay div {
+    float: left;
+    height: 62px;
+    width: 60%;
+  }
+  .membership-pay div + div {
+    border-left: none;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    float: right;
+    width: 40%;
+  }
+  .membership section:last-child {
+    margin-top: 1em;
+  }
 }
 
 /* __ pdf link __ */
@@ -1319,5 +1350,10 @@ h3 {
   .webshop div {
     width: 330px;
   }
+
+  /* __ membership __ */
+
+  .membership-pay div {
+    height: 68px;
 
 }
