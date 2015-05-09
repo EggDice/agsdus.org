@@ -456,7 +456,14 @@ main.contentpage {
   margin-bottom: 0;
 }
 .info-box ul {
-  list-style: none;
+  list-style-type: disc;
+  margin: 1em 0 1.5em 2em;
+}
+.info-box li {
+  margin-bottom: 0.5em;
+}
+.info-box li:last-child {
+  margin-bottom: 0;
 }
 h3 {
   font-size: 1.1em;
@@ -482,7 +489,13 @@ h3 {
 
 /* __ Address Box __ */
 
-.address-box {}
+.address-box ul {
+  list-style: none;
+  margin: 0;
+}
+.address-box li {
+  margin-bottom: 0;
+}
 
 /* __ Figure Box __ */
 
@@ -777,14 +790,10 @@ h3 {
   width: auto;
 }
 .webshop ul {
-  list-style-type: disc;
   margin: 1em 0 1.5em 1.3em;
 }
 .webshop li {
   margin-bottom: 1em;
-}
-.webshop li:last-child {
-  margin-bottom: 0;
 }
 .webshop-price {
   border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -855,6 +864,29 @@ h3 {
   }
 }
 
+/* __ membership __ */
+
+.highlight-green {
+  color: #52975e;
+}
+.highlight-red {
+  color: #c42d2d;
+}
+.membership-pay {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-top: 1px solid rgba(0,0,0,0.2);
+  padding: 1em 0;
+}
+
+/* __ pdf link __ */
+
+.pdf-link {
+  background-color: #52975e;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* __ BOX LINK __ */
 
