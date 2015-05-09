@@ -943,7 +943,7 @@ h3 {
   }
   .wrapper {
     margin: 0 auto;
-    width: 950px;
+    width: 940px;
   }
   .logo {
     float: left;
@@ -956,7 +956,7 @@ h3 {
   .headertext {
     float: left;
     text-align: center;
-    width: 640px;
+    width: 630px;
   }
   .site-header {
     margin: 0 0 40px 0;
@@ -994,10 +994,11 @@ h3 {
 
   .pdf img {
     clear: both;
-    margin: 10px 45px;
+    margin: 15px 45px 20px;
   }
 
   .pdf a {
+    line-height: 1.4;
     margin: 8px;
   }
 
@@ -1031,8 +1032,8 @@ h3 {
   .letters li {
     height: 320px;
     list-style: none;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 3px;
+    margin-right: 4px;
     position: relative;
     width: 230px;
     z-index: 1;
@@ -1044,6 +1045,7 @@ h3 {
 
   .letters li:last-child {
     margin-right: 0;
+    margin-left: 2px;
   }
 
   .blue {
@@ -1176,7 +1178,7 @@ h3 {
   .menu ul ul {
     display: none;
     z-index: 100;
-    width: 135px;
+    width: 133px;
   }
   .menu > ul > li > a {
     background-color: #52975e;
@@ -1205,6 +1207,9 @@ h3 {
     position: relative;
     text-align: center;
     width: 134px;
+  }
+  .menu > ul > li:last-child {
+    width: 136px;
   }
   .menu li li a {
     border-bottom: 1px solid #97c19e;
