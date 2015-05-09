@@ -1060,8 +1060,14 @@ h3 {
     border: 0;
   }
 
+  .letters li a {
+    width: 229px;
+    box-sizing: border-box;
+  }
+
   .letters li a:first-child {
     line-height: 140px;
+    height: 229px;
   }
 
   .letters li:last-child {
