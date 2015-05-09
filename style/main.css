@@ -849,6 +849,11 @@ h3 {
     width: 140px;
   }
 
+  .blueli a:hover {
+    background: #0c0d43;
+    color: #fff;
+  }
+
   .bluetext {
     width: 230px;
   }
@@ -858,6 +863,11 @@ h3 {
     font-size: 100px;
     height: 140px;
     width: 140px;
+  }
+
+  .greenli a:hover {
+    background: #08ad90;
+    color: #fff;
   }
 
   .greentext {
@@ -871,6 +881,11 @@ h3 {
     width: 140px;
   }
 
+  .yellowli a:hover {
+    background: #ffc94b;
+    color: #fff;
+  }
+
   .yellowtext {
     width: 230px;
   }
@@ -880,6 +895,11 @@ h3 {
     font-size: 100px;
     height: 140px;
     width: 140px;
+  }
+
+  .redli a:hover {
+    background: #a24343;
+    color: #fff;
   }
 
   .redtext {
