@@ -734,24 +734,9 @@ h3 {
 .table-generic tr:nth-child(even) {
   background: #dde2e7;
   }
-/*.table-generic tr {
-  border-left: 1px solid #c1c7cd;
-  border-right: 1px solid #c1c7cd;
+.table-generic {
+  border: 1px solid #c1c7cd;
 }
-.table-generic tr:last-child {
-  border-bottom: 1px solid #c1c7cd;
-}*/
-
-
-
-
-
-
-
-
-
-
-
 
 /* __ figure __ */
 
