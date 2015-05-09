@@ -977,7 +977,7 @@ h3 {
     width: 140px;
   }
 
-  .blueli a:hover {
+  .blueli:hover a {
     background: #0c0d43;
     color: #fff;
   }
@@ -993,7 +993,7 @@ h3 {
     width: 140px;
   }
 
-  .greenli a:hover {
+  .greenli:hover a {
     background: #08ad90;
     color: #fff;
   }
@@ -1009,7 +1009,7 @@ h3 {
     width: 140px;
   }
 
-  .yellowli a:hover {
+  .yellowli:hover a {
     background: #ffc94b;
     color: #fff;
   }
@@ -1025,7 +1025,7 @@ h3 {
     width: 140px;
   }
 
-  .redli a:hover {
+  .redli:hover a {
     background: #a24343;
     color: #fff;
   }
