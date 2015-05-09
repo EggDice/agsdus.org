@@ -727,13 +727,105 @@ h3 {
   margin: 0.9em 2em 0;
 }
 
+/* __ WEBSHOP __ */
+
+.webshop h3 {
+  color: #33383d;
+  font-size: 1.2em;
+}
+.webshop img {
+  margin-bottom: 1.5em;
+}
+.webshop .webshop-pay-button img {
+  margin: 0;
+  width: auto;
+}
+.webshop ul {
+  list-style-type: disc;
+  margin: 1em 0 1.5em 1.3em;
+}
+.webshop li {
+  margin-bottom: 1em;
+}
+.webshop li:last-child {
+  margin-bottom: 0;
+}
+.webshop-price {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-top: 1px solid rgba(0,0,0,0.2);
+  color: #0a4815;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 6px 0;
+  -webkit-margin-after: 0.5em;
+}
+.webshop-price dt,
+.webshop-price dd {
+  display: inline;
+}
+.webshop-price dd {
+  -webkit-margin-start: 0.2em;
+}
+.webshop-pay-button {
+  margin-bottom: 1em;
+}
+.webshop-pay-button select {
+  border-color: rgba(0,0,0,0.2);
+  border-radius: 5px;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin: 0.7em 0;
+  max-width: 100%;
+  padding: 0 10px;
+  -webkit-box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.3);
+}
+.webshop-pay-button select:focus {
+  outline: none;
+  border-color: rgba(0,0,0,0.6);
+}
+.new-item::before {
+  background-color: #52975e;
+  color: #fff;
+  content: 'NEW ITEM!';
+  display: block;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  padding: 6px 8px;
+  text-align: center;
+}
+
+/* __ webshop figure box - BREAKPOINTS __ */
+
+@media screen and (min-width: 340px)  {
+  .webshop img {
+    margin: 0 5% 0 0;
+  }
+  .webshop div {
+    float: right;
+    width: 57%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .webshop img {
+    max-width: 55%;
+    width: auto;
+  }
+  .webshop div {
+    width: 40%;
+  }
+}
+
+
 /* __ BOX LINK __ */
 
 .box-link:hover .info-box,
 .box-link:active .info-box {
   opacity: 0.8;
 }
-
 
 
 /*
@@ -1147,6 +1239,17 @@ h3 {
   }
   .faq dt {
     margin-bottom: 0.5em;
+  }
+
+  /* __ WEBSHOP __ */
+
+  .webshop img {
+    margin: 0 28px 0 0;
+    max-width: 400px;
+    width: auto;
+  }
+  .webshop div {
+    width: 330px;
   }
 
 }
