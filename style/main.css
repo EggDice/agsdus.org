@@ -716,22 +716,22 @@ h3 {
   font-weight: normal;
   color: #fff;
 }
-
 .table-generic td,
 .table-generic th {
   padding: 0.5rem;
 }
-.table-generic td,
 .table-generic th {
-  border-left: 1px solid #dde2e7;
+  border-left: 1px solid #bad5bf;
 }
-.table-generic td,
-.table-generic th {
-  border-left: 1px solid #dde2e7;
+table.table-generic {
+  border: 1px solid #52975e;
+}
+.table-generic td {
+  border-left: 1px solid #52975e;
 }
 .table-generic td:first-child,
 .table-generic th:first-child {
-  border-left: 0px solid #dde2e7;
+  border-left: 0;
 }
 
 
