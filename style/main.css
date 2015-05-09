@@ -723,9 +723,7 @@ h3 {
 .table-generic th {
   border-left: 1px solid #bad5bf;
 }
-table.table-generic {
-  border: 1px solid #52975e;
-}
+
 .table-generic td {
   border-left: 1px solid #52975e;
 }
@@ -733,6 +731,9 @@ table.table-generic {
 .table-generic th:first-child {
   border-left: 0;
 }
+.table-generic tr:nth-child(even) {
+  background: #dde2e7;
+  }
 
 
 
