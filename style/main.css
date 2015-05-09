@@ -703,7 +703,36 @@ h3 {
 }
 /* __ table __*/
 
+.table-generic {
+  border-spacing: collapse;
+  max-width: 100%;
+}
 
+.table-generic thead {
+  background: #52975e;
+}
+
+.table-generic thead th {
+  font-weight: normal;
+  color: #fff;
+}
+
+.table-generic td,
+.table-generic th {
+  padding: 0.5rem;
+}
+.table-generic td,
+.table-generic th {
+  border-left: 1px solid #dde2e7;
+}
+.table-generic td,
+.table-generic th {
+  border-left: 1px solid #dde2e7;
+}
+.table-generic td:first-child,
+.table-generic th:first-child {
+  border-left: 0px solid #dde2e7;
+}
 
 
 
